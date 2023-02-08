@@ -2,6 +2,8 @@ import Banner from './banner.png'
 import Cabecalho from "../../componentes/Cabecalho";
 import Menu from "../../componentes/Menu";
 import styles from './Paginainicial.module.scss';
+import Rodape from '../../componentes/Rodape';
+import Galeria from '../../componentes/Galeria';
 
 export default function PaginaInicial () {
     return (
@@ -16,6 +18,10 @@ export default function PaginaInicial () {
                     </div>
                 </section>
             </main>
+            <div>
+                <Galeria/>
+            </div>
+            <Rodape/>
         </>
         
    )
